@@ -1,6 +1,21 @@
-# installing_brother_printer_on_linux
+# Installation of Printers in Linux Distros with CUPS
 
-[toc]
+## Table of Contents
+- [Installing Brother Printer on Linux](#installing_brother_printer_on_linux)
+- [Getting Device Information](#getting-device-information)
+  - [Example WLAN Configuration](#example-wlan-configuration)
+  - [Example WLAN Report](#example-wlan-report)
+  - [What Do These Tell Us?](#what-do-these-tell-us)
+- [On the Linux Machine](#on-the-linux-machine)
+  - [First: See if the Printer Can Be Found with the Bonjour Service](#first-see-if-the-printer-can-be-found-with-the-bonjour-service)
+    - [Key Features of Bonjour (Avahi)](#key-features-of-bonjour-avahi)
+    - [How to Identify if Your Printer Can Use This Auto-Configuration](#how-to-identify-if-your-printer-can-use-this-auto-configuration)
+  - [Second: If Your System Cannot Run the Bonjour/Avahi Service: Try IPP or SNMP](#second-if-your-system-cannot-run-the-bonjouravahi-service-try-ipp-or-snmp)
+    - [IPP](#ipp)
+    - [SNMP](#snmp)
+      - [Examine CUPS SNMP Configuration](#examine-cups-snmp-configuration)
+      - [Access the Printer Through CUPS Admin Page](#access-the-printer-through-cups-admin-page)
+
 
 # Getting device information
 
