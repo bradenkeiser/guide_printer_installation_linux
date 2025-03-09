@@ -21,11 +21,11 @@ With these reports, we should have something along the lines:
 
 ## Example WLAN configuration
 
-![image-20250309150643011](/home/deck/.config/Typora/typora-user-images/image-20250309150643011.png)
+![image-20250309150643011](wlan_config1.png)
 
-![image-20250309150733664](/home/deck/.config/Typora/typora-user-images/image-20250309150733664.png)
+![image-20250309150733664](wlan_config2.png)
 
-![image-20250309150811809](/home/deck/.config/Typora/typora-user-images/image-20250309150811809.png)
+![image-20250309150811809](wlan_config3.png)
 
 ![image-20250309150934163](/home/deck/.config/Typora/typora-user-images/image-20250309150934163.png)
 
