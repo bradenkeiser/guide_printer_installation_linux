@@ -27,7 +27,7 @@ With these reports, we should have something along the lines:
 
 ![image-20250309150811809](wlan_config3.png)
 
-![image-20250309150934163](/home/deck/.config/Typora/typora-user-images/image-20250309150934163.png)
+![image-20250309150934163](wlan_config4.png)
 
 
 
@@ -35,7 +35,7 @@ With these reports, we should have something along the lines:
 
 *The top 4/5 of this page was blank*
 
-![image-20250309151056542](/home/deck/.config/Typora/typora-user-images/image-20250309151056542.png)
+![image-20250309151056542](wlan_report.png)
 
 ## What do these tell us?
 
@@ -199,43 +199,43 @@ In your browser, we will connect to the CUPS administration page located:
 
 If you are on the CUPS admin page, you should have a site that looks like this:
 
-![image-20250309144954299](/home/deck/.config/Typora/typora-user-images/image-20250309144954299.png)
+![image-20250309144954299](cups1.png)
 
 Click on the highlighted 'Administration' tab to be brought to where SNMP will function to find devices:
 
-![image-20250309145043840](/home/deck/.config/Typora/typora-user-images/image-20250309145043840.png)
+![image-20250309145043840](cups2.png)
 
 Click `Find New Printers` and wait for SNMP to find available printers:
 
-![image-20250309145200322](/home/deck/.config/Typora/typora-user-images/image-20250309145200322.png)
+![image-20250309145200322](cups3.png)
 
 When you add the printer, you can manually input device information just as `lpadmin` would:
 
-![image-20250309145259251](/home/deck/.config/Typora/typora-user-images/image-20250309145259251.png)
+![image-20250309145259251](cups4.png)
 
 Next, it will ask you for your printer's `make`. I selected `Generic` because we'll use IPP or SNMP.
 
-![image-20250309145512608](/home/deck/.config/Typora/typora-user-images/image-20250309145512608.png)
+![image-20250309145512608](cups5.png)
 
 And then you select the `Model` and issue `Add Printer`
 
-![image-20250309145737233](/home/deck/.config/Typora/typora-user-images/image-20250309145737233.png)
+![image-20250309145737233](cups6.png)
 
 ##### Use with printer Make
 
 Similarly, if I used the `Brother` make, we can get the specific `Model`:
 
-![image-20250309145906770](/home/deck/.config/Typora/typora-user-images/image-20250309145906770.png)
+![image-20250309145906770](cups7.png)
 
 And then, you can set some default options for the machine like defaulting to 2-sided printing:
 
-![image-20250309150028310](/home/deck/.config/Typora/typora-user-images/image-20250309150028310.png)
+![image-20250309150028310](cups8.png)
 
 ### Return to the Administration page and enter manage printers
 
 Your printer should now be listed as mine is:
 
-![image-20250309150134388](/home/deck/.config/Typora/typora-user-images/image-20250309150134388.png)
+![image-20250309150134388](cups9.png)
 
 *Mine was labeled as brother_laser_test because I already used Bonjour/Avahi to add brother_laser*
 
